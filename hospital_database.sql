@@ -20,7 +20,8 @@ SET time_zone = "+00:00";
 -- Database: `hospital database`
 --
 
--- --------------------------------------------------------
+CREATE DATABASE IF NOT EXISTS `hospital database`;
+USE `hospital database`;
 
 --
 -- Table structure for table `drug`
